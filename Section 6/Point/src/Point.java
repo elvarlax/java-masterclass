@@ -31,7 +31,7 @@ public class Point {
     }
 
     public double distance(int x, int y) {
-        return Math.sqrt((getX() - x) * (getX() - x) + (getY() - y) * (getY() - y));
+        return Math.sqrt((this.x - x) * (this.x - x) + (this.y - y) * (this.y - y));
     }
 
     public double distance(Point p) {
