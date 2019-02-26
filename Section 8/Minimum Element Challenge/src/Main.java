@@ -5,20 +5,20 @@ public class Main {
 
     public static void main(String[] args) {
         /*
-          Write a method called readIntegers() with a parameter called count that represents
-          how many integers the user need to enter.
+        Write a method called readIntegers() with a parameter called count that represents
+        how many integers the user need to enter.
 
-          The method need to read from the console until all the numbers are entered, and
-          then return an array containing the numbers entered.
+        The method need to read from the console until all the numbers are entered, and
+        then return an array containing the numbers entered.
 
-          Write a method findMin() with the array as a parameter. The method need to return
-          the minimum value in the array.
+        Write a method findMin() with the array as a parameter. The method need to return
+        the minimum value in the array.
 
-          In the main() method read the count from the console and call the method readIntegers()
-          with the count parameter.
+        In the main() method read the count from the console and call the method readIntegers()
+        with the count parameter.
 
-          Then call the findMin() method passing the array returned from the call to the
-          readIntegers() method.
+        Then call the findMin() method passing the array returned from the call to the
+        readIntegers() method.
         */
         System.out.println("Enter count:");
         int count = scanner.nextInt();
