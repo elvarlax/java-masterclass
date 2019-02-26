@@ -23,7 +23,6 @@ public class NumberPalindrome {
         Find the reverse of the given number. Store in some variable say reverse.
         Compare the number with reverse.
         If both are the same then the number is a palindrome otherwise it is not.
-
         Declare and initialize another variable to store the reverse of a number, for example reverse = 0.
         Store the last digit to some variable say lastDigit = num % 10.
         Increase the place value of reverse by one.

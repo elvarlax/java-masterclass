@@ -68,7 +68,6 @@ public class NumberToWords {
         The method reverse should also reverse negative numbers.
 
         Use the method reverse within the method numberToWords in order to print the words in the correct order.
-
         Another thing to keep in mind is any reversed number with leading zeroes (e.g. the reversed number for 100 is 001).
         The logic above for the method numberToWords will print "One", but that is incorrect.
         It should print "One Zero Zero". To solve this problem, write a third method called getDigitCount.

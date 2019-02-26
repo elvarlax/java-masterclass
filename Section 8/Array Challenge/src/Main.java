@@ -17,7 +17,6 @@ public class Main {
         you will have to figure out how to copy the array elements from the passed array into a
         new array and sort them and return the new sorted array.
         */
-
         int[] myIntegers = getIntegers(5);
         int[] sorted = sortIntegers(myIntegers);
         printArray(sorted);

@@ -28,7 +28,6 @@ public class SumOddRange {
 
         Write a second method called sumOdd that has 2 int parameters start and end,
         which represent a range of numbers.
-
         The method should use a for loop to sum all odd numbers in that range including the end and return the sum.
         It should call the method isOdd to check if each number is odd.
         The parameter end needs to be greater than or equal to start and both start and end parameters have to be greater than 0.
@@ -40,7 +39,7 @@ public class SumOddRange {
         *   sumOdd(100, 100); -> should return 0
         *   sumOdd(100, -100); -> should return -1
         *   sumOdd(100, 1000); -> should return 247500
-         */
+        */
         System.out.println(sumOdd(1, 100));
         System.out.println(sumOdd(-1, 100));
         System.out.println(sumOdd(100, 100));

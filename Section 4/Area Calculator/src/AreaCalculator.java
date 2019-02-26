@@ -23,7 +23,6 @@ public class AreaCalculator {
         where x and y represent the sides of a rectangle.
         The method need to return an area of an rectangle.
         If either or both parameters is/are a negative return -1.0 to indicate an invalid value.
-
         For formulas and PI value please check the tips below.
 
         Examples of input/output:
@@ -31,7 +30,7 @@ public class AreaCalculator {
         *   area(-1); should return -1 since the parameter is negative
         *   area(5.0, 4.0); should return 20.0 (5 * 4 = 20)
         *   area(-1.0, 4.0); should return -1 since the first parameter is negative.
-         */
+        */
         System.out.println(area(5.0));
         System.out.println(area(-1));
         System.out.println(area(5.0, 4.0));

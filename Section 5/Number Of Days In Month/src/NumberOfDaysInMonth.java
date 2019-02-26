@@ -61,9 +61,7 @@ public class NumberOfDaysInMonth {
         Write another method getDaysInMonth with two parameters month and year. Both of type int.
         If parameter month is < 1 or > 12 return -1.
         If parameter year is < 1 or > 9999 then return -1.
-
         This method needs to return the number of days in the month. Be careful about leap years they have 29 days in month 2 (February).
-
         You should check if the year is a leap year using the method isLeapYear describe above.
 
         Example of input/output:

@@ -1,5 +1,4 @@
 public class Main {
-
     public static void main(String[] args) {
         /*
         You job is to create a simple banking application.
@@ -46,7 +45,7 @@ public class Main {
 
         bank.addBranch("Texas");
 
-        if(!bank.addCustomer("Texas", "Donald", 5.53)) {
+        if (!bank.addCustomer("Texas", "Donald", 5.53)) {
             System.out.println("Error Texas branch does not exist");
         }
 
