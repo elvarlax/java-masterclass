@@ -14,7 +14,7 @@ All coursework for the Java Masterclass by Tim Buchalka (Learn Programming Acade
 - [x] Section 06 - OOP Part 1 - Classes, Constructors and Inheritance
 - [x] Section 07 - OOP Part 2 - Composition, Encapsulation, and Polymorphism
 - [x] Section 08 - Arrays, Java inbuilt Lists, Autoboxing and Unboxing
-- [ ] Section 09 - Inner and Abstract Classes & Interfaces
+- [x] Section 09 - Inner and Abstract Classes & Interfaces
 - [ ] Section 10 - Java Generics
 - [ ] Section 11 - Naming Conventions and Packages static and final keywords
 - [ ] Section 12 - Java Collections
