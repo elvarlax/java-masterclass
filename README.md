@@ -17,7 +17,7 @@ All coursework for the Java Masterclass by Tim Buchalka (Learn Programming Acade
 - [x] Section 09 - Inner and Abstract Classes & Interfaces
 - [x] Section 10 - Java Generics
 - [x] Section 11 - Naming Conventions and Packages static and final keywords
-- [ ] Section 12 - Java Collections
+- [x] Section 12 - Java Collections
 - [ ] Section 13 - JavaFX
 - [ ] Section 14 - Basic Input & Output including java.util
 - [ ] Section 15 - Concurrency in Java
