@@ -19,7 +19,7 @@ All coursework for the Java Masterclass by Tim Buchalka (Learn Programming Acade
 - [x] Section 11 - Naming Conventions and Packages static and final keywords
 - [x] Section 12 - Java Collections
 - [ ] Section 13 - JavaFX
-- [ ] Section 14 - Basic Input & Output including java.util
+- [x] Section 14 - Basic Input & Output including java.util
 - [ ] Section 15 - Concurrency in Java
 - [ ] Section 16 - Lambda Expressions
 - [ ] Section 17 - Regular Expressions
