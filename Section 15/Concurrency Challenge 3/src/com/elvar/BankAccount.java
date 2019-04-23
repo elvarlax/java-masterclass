@@ -10,11 +10,19 @@ class BankAccount {
         this.balance = initialBalance;
     }
 
-    public void deposit(double amount) {
+    public synchronized void deposit(double amount) {
         balance += amount;
     }
 
-    public void withdraw(double amount) {
+    public synchronized void withdraw(double amount) {
         balance -= amount;
+    }
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void printAccountNumber() {
+        System.out.println("Account number = " + accountNumber);
     }
 }

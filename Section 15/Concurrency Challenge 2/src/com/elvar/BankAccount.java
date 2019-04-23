@@ -17,8 +17,4 @@ class BankAccount {
     public synchronized void withdraw(double amount) {
         balance -= amount;
     }
-
-    public double getBalance() {
-        return balance;
-    }
 }
