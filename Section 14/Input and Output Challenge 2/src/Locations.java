@@ -92,7 +92,6 @@ public class Locations implements Map<Integer, Location> {
     @Override
     public void clear() {
         locations.clear();
-
     }
 
     @Override
