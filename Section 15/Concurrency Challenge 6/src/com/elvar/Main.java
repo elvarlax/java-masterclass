@@ -4,14 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
         /*
-        Make the BankAccount class Threadsafe using the synchronize keyword.
+        Update the code so that the status variable is thread safe.
 
-        I hope you can see that there's going to be thread interference when two
-        threads are accessing the same BankAccount instance at the same time.
-        We have to make the BankAccount class threadsafe, and that's our next challenge.
-        Use the synchronized keyword to make the BankAccount class threadsafe.
+        Use whatever method you like: the synchronized keyword or the lock object.
         */
         final BankAccount account = new BankAccount("12345-678", 1000.00);
+
+        // The status variable is already thread safe because local variables are stored on the thread stack
+        // so that they have their own copy of the status variable.
 
         Thread t1 = new Thread() {
             public void run() {

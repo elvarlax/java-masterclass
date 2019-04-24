@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         /*
+        Use tryLock with a timeout value.
+
         Instead of using lock(), use tryLock() with a timeout value of 1 second.
         If the waiting period times out, print the message, "Could not get the lock" to the console.
 

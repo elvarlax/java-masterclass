@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         /*
         Make the BankAccount class threadsafe again using the synchronized keyword.
+
         We've added two new methods. Update the code so that the BankAccount class
         is threadsafe. Use the synchronized keyword wherever necessary.
         */

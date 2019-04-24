@@ -4,7 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         /*
-        Instead of using the synchronized keyword, make the BankAccount class threadsafe using the ReentrantLock class.
+        Use ReentrantLock.
+
+        Instead of using the synchronized keyword, make the BankAccount class
+        threadsafe using the ReentrantLock class.
         */
         final BankAccount account = new BankAccount("12345-678", 1000.00);
 
