@@ -20,7 +20,7 @@ All coursework for the Java Masterclass by Tim Buchalka (Learn Programming Acade
 - [x] Section 12 - Java Collections
 - [ ] Section 13 - JavaFX
 - [x] Section 14 - Basic Input & Output including java.util
-- [ ] Section 15 - Concurrency in Java
+- [x] Section 15 - Concurrency in Java
 - [ ] Section 16 - Lambda Expressions
 - [ ] Section 17 - Regular Expressions
 - [ ] Section 18 - Debugging and Unit Testing

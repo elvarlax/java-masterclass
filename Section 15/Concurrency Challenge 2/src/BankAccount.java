@@ -1,7 +1,4 @@
-package com.elvar;
-
-class BankAccount {
-
+public class BankAccount {
     private double balance;
     private String accountNumber;
 
@@ -10,11 +7,11 @@ class BankAccount {
         this.balance = initialBalance;
     }
 
-    public void deposit(double amount) {
+    public synchronized void deposit(double amount) {
         balance += amount;
     }
 
-    public void withdraw(double amount) {
+    public synchronized void withdraw(double amount) {
         balance -= amount;
     }
 }

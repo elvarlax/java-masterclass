@@ -1,13 +1,11 @@
-package com.elvar;
-
 public class Main {
 
     public static void main(String[] args) {
         /*
-        Use ReentrantLock.
+        Make the BankAccount class threadsafe again using the synchronized keyword.
 
-        Instead of using the synchronized keyword, make the BankAccount class
-        threadsafe using the ReentrantLock class.
+        We've added two new methods. Update the code so that the BankAccount class
+        is threadsafe. Use the synchronized keyword wherever necessary.
         */
         final BankAccount account = new BankAccount("12345-678", 1000.00);
 

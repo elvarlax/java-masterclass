@@ -1,6 +1,4 @@
-package com.elvar;
-
-class BankAccount {
+public class BankAccount {
 
     private double balance;
     private String accountNumber;

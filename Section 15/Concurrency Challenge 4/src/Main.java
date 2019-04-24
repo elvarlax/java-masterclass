@@ -1,19 +1,16 @@
-package com.elvar;
-
 public class Main {
 
     public static void main(String[] args) {
         /*
-        Use tryLock with a timeout value.
+        Use ReentrantLock.
 
-        Instead of using lock(), use tryLock() with a timeout value of 1 second.
-        If the waiting period times out, print the message, "Could not get the lock" to the console.
-
-        Hint: Use the form of the tryLock() method that accepts two parameters - the first parameter
-        is the timeout value, and the second parameter is the time unit of the first parameter.
-        Use TimeUnite.MILLISECONDS for the second parameter.
+        Instead of using the synchronized keyword, make the BankAccount class
+        threadsafe using the ReentrantLock class.
         */
         final BankAccount account = new BankAccount("12345-678", 1000.00);
+
+        // Answer: Both threads are using the same account number so it is unnecessary to use the synchronized keyword.
+        // However, this question was a trick question.
 
         Thread t1 = new Thread() {
             public void run() {

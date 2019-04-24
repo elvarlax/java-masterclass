@@ -1,15 +1,12 @@
-package com.elvar;
-
 public class Main {
-
     public static void main(String[] args) {
         /*
-        Create and start threads.
+        Make the BankAccount class Threadsafe using the synchronize keyword.
 
-        We could have two people using a joint bank account at the same time.
-        Create and start two threads that use the same BankAccount instance and an initial balance of $1000.00.
-        One will deposit $300.00 into the bank account, and then withdraw $50.00.
-        The other will deposit $203.75 and then withdraw $100.00
+        I hope you can see that there's going to be thread interference when two
+        threads are accessing the same BankAccount instance at the same time.
+        We have to make the BankAccount class threadsafe, and that's our next challenge.
+        Use the synchronized keyword to make the BankAccount class threadsafe.
         */
         final BankAccount account = new BankAccount("12345-678", 1000.00);
 

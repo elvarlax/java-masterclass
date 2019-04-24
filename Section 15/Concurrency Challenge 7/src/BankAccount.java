@@ -1,9 +1,8 @@
-package com.elvar;
-
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 class BankAccount {
+
     private double balance;
     private String accountNumber;
     private Lock lock = new ReentrantLock();

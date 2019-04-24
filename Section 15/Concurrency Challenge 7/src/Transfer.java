@@ -1,6 +1,5 @@
-package com.elvar;
-
 class Transfer implements Runnable {
+
     private BankAccount sourceAccount, destinationAccount;
     private double amount;
 

@@ -1,7 +1,4 @@
-package com.elvar;
-
 public class Main {
-
     public static void main(String[] args) {
         /*
         Spot and fix the problem.

@@ -1,17 +1,14 @@
-package com.elvar;
-
 public class Main {
-
     public static void main(String[] args) {
         /*
-        Update the code so that the status variable is thread safe.
+        Create and start threads.
 
-        Use whatever method you like: the synchronized keyword or the lock object.
+        We could have two people using a joint bank account at the same time.
+        Create and start two threads that use the same BankAccount instance and an initial balance of $1000.00.
+        One will deposit $300.00 into the bank account, and then withdraw $50.00.
+        The other will deposit $203.75 and then withdraw $100.00
         */
         final BankAccount account = new BankAccount("12345-678", 1000.00);
-
-        // The status variable is already thread safe because local variables are stored on the thread stack
-        // so that they have their own copy of the status variable.
 
         Thread t1 = new Thread() {
             public void run() {
