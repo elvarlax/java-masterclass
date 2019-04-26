@@ -1,5 +1,5 @@
-# Java Masterclass
-All coursework for the Java Masterclass by Tim Buchalka (Learn Programming Academy teacher).
+# Java Programming Masterclass for Software Developers
+All coursework for the Java Programming Masterclass for Software Developers by Tim Buchalka (Learn Programming Academy teacher).
 
 [The Course at Udemy](https://www.udemy.com/java-the-complete-java-developer-course)   
 [The Learn Programming Academy](http://learnprogramming.academy)
