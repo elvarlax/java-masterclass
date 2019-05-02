@@ -22,7 +22,7 @@ All coursework for the Java Programming Masterclass for Software Developers by T
 - [x] Section 14 - Basic Input & Output including java.util
 - [x] Section 15 - Concurrency in Java
 - [x] Section 16 - Lambda Expressions
-- [ ] Section 17 - Regular Expressions
+- [x] Section 17 - Regular Expressions
 - [ ] Section 18 - Debugging and Unit Testing
 - [ ] Section 19 - Databases
 - [ ] Section 20 - Java Networking Programming
