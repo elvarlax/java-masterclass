@@ -14,8 +14,10 @@ public class Main {
         just think of what the inputs and expected outputs would be.
         */
         Utilities utils = new Utilities();
-        utils.removePairs("AABCDDEFF");
-        System.out.println("-");
-        utils.removePairs("ABCCABDEEF");
+        System.out.println(utils.removePairs("AABCDDEFF"));
+        System.out.println(utils.removePairs("ABCCABDEEF"));
+        System.out.println(utils.removePairs("A"));
+        System.out.println(utils.removePairs(""));
+        System.out.println(utils.removePairs(null));
     }
 }
