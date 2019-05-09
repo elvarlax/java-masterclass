@@ -23,7 +23,7 @@ All coursework for the Java Programming Masterclass for Software Developers by T
 - [x] Section 15 - Concurrency in Java
 - [x] Section 16 - Lambda Expressions
 - [x] Section 17 - Regular Expressions
-- [ ] Section 18 - Debugging and Unit Testing
+- [x] Section 18 - Debugging and Unit Testing
 - [ ] Section 19 - Databases
 - [ ] Section 20 - Java Networking Programming
 - [ ] Section 21 - Java 9 Module System
