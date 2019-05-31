@@ -24,8 +24,8 @@ All coursework for the Java Programming Masterclass for Software Developers by T
 - [x] Section 16 - Lambda Expressions
 - [x] Section 17 - Regular Expressions
 - [x] Section 18 - Debugging and Unit Testing
-- [ ] Section 19 - Databases
-- [ ] Section 20 - Java Networking Programming
+- [x] Section 19 - Databases
+- [x] Section 20 - Java Networking Programming
 - [ ] Section 21 - Java 9 Module System
 - [ ] Section 22 - Migrating Java Projects to Java 9
 - [ ] Section 23 - Archived Videos
