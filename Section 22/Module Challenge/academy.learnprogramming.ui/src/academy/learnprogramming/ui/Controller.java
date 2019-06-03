@@ -39,6 +39,7 @@ public class Controller {
             System.out.println("NO ARTIST SELECTED");
             return;
         }
+
         Task<ObservableList<Album>> task = new Task<ObservableList<Album>>() {
             @Override
             protected ObservableList<Album> call() throws Exception {
