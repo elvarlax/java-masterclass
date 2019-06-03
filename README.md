@@ -26,7 +26,7 @@ All coursework for the Java Programming Masterclass for Software Developers by T
 - [x] Section 18 - Debugging and Unit Testing
 - [x] Section 19 - Databases
 - [x] Section 20 - Java Networking Programming
-- [ ] Section 21 - Java 9 Module System
-- [ ] Section 22 - Migrating Java Projects to Java 9
-- [ ] Section 23 - Archived Videos
-- [ ] Section 24 - Bonus Material
+- [x] Section 21 - Java 9 Module System
+- [x] Section 22 - Migrating Java Projects to Java 9
+- [x] Section 23 - Archived Videos
+- [x] Section 24 - Bonus Material
