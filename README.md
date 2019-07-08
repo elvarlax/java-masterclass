@@ -4,6 +4,8 @@ All coursework for the Java Programming Masterclass for Software Developers by T
 [The Course at Udemy](https://www.udemy.com/java-the-complete-java-developer-course)   
 [The Learn Programming Academy](http://learnprogramming.academy)
 
+![Certificate](certificate.jpg)
+
 ## Curriculum
 
 - [x] Section 01 - Course Introduction
