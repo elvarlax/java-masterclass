@@ -18,7 +18,7 @@ All coursework for the Java Programming Masterclass for Software Developers by T
 - [x] Section 10 - Java Generics
 - [x] Section 11 - Naming Conventions and Packages static and final keywords
 - [x] Section 12 - Java Collections
-- [ ] Section 13 - JavaFX
+- [x] Section 13 - JavaFX
 - [x] Section 14 - Basic Input & Output including java.util
 - [x] Section 15 - Concurrency in Java
 - [x] Section 16 - Lambda Expressions
